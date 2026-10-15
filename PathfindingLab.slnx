@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="PathfindingLab.Browser/PathfindingLab.Browser.csproj" />
+  <Project Path="PathfindingLab.Desktop/PathfindingLab.Desktop.csproj" />
+  <Project Path="PathfindingLab/PathfindingLab.csproj" />
+</Solution>
