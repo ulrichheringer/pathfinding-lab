@@ -1,21 +1,23 @@
 # pathfinding-lab
 
-Visualiza BFS, DFS, Dijkstra e A* em uma grade com obstáculos e animação.
+A visual playground for BFS, DFS, Dijkstra, and A* on a grid. Add walls and watch each algorithm explore the board and find a route.
 
-## Desktop
+## Run
 
-```sh
+Requires the .NET 10 SDK. Browser builds also need the WebAssembly workload: `dotnet workload install wasm-tools`.
+
+### Desktop
+
+~~~sh
 dotnet run --project PathfindingLab.Desktop/PathfindingLab.Desktop.csproj
-```
+~~~
 
-## Browser
+### Browser
 
-Requer o workload wasm-tools do .NET 10.
-
-```sh
+~~~sh
 dotnet run --project PathfindingLab.Browser/PathfindingLab.Browser.csproj
-```
+~~~
 
-## Exemplo
+## Example
 
-Selecione A*, desenhe paredes na grade e pressione “Buscar caminho”.
+Choose A*, draw a few walls on the grid, and click **Find path**.
